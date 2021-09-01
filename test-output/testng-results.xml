@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-10T14:03:56 IST" name="Amazon1 Suite" finished-at="2021-08-10T14:15:23 IST" duration-ms="686625">
+    <groups>
+    </groups>
+    <test started-at="2021-08-10T14:03:56 IST" name="Amazon" finished-at="2021-08-10T14:15:23 IST" duration-ms="686625">
+      <class name="com.qa.test.AmazonTest.Amazon_test">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.test.AmazonTest.Amazon_test@74751b3]" started-at="2021-08-10T14:03:56 IST" name="setUp" finished-at="2021-08-10T14:06:13 IST" duration-ms="136940" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchFirstItem(java.lang.String,java.lang.String)[pri:1, instance:com.qa.test.AmazonTest.Amazon_test@74751b3]" started-at="2021-08-10T14:06:13 IST" name="searchFirstItem" finished-at="2021-08-10T14:07:44 IST" duration-ms="90421" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Books]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Da vinci code]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFirstItem -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.test.AmazonTest.Amazon_test@74751b3]" started-at="2021-08-10T14:07:44 IST" name="tearDown" finished-at="2021-08-10T14:07:53 IST" duration-ms="9001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.test.AmazonTest.Amazon_test@74751b3]" started-at="2021-08-10T14:07:53 IST" name="setUp" finished-at="2021-08-10T14:10:34 IST" duration-ms="161336" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchSecondItem(java.lang.String,java.lang.String)[pri:2, instance:com.qa.test.AmazonTest.Amazon_test@74751b3]" started-at="2021-08-10T14:10:34 IST" name="searchSecondItem" finished-at="2021-08-10T14:11:54 IST" duration-ms="79563" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Electronics]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mobile phones]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchSecondItem -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.test.AmazonTest.Amazon_test@74751b3]" started-at="2021-08-10T14:11:55 IST" name="tearDown" finished-at="2021-08-10T14:12:10 IST" duration-ms="15156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.test.AmazonTest.Amazon_test@74751b3]" started-at="2021-08-10T14:12:10 IST" name="setUp" finished-at="2021-08-10T14:13:39 IST" duration-ms="88772" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchThirdItem(java.lang.String,java.lang.String)[pri:3, instance:com.qa.test.AmazonTest.Amazon_test@74751b3]" started-at="2021-08-10T14:13:39 IST" name="searchThirdItem" finished-at="2021-08-10T14:14:54 IST" duration-ms="75046" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Furniture]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Wooden Tables]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchThirdItem -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.test.AmazonTest.Amazon_test@74751b3]" started-at="2021-08-10T14:14:54 IST" name="tearDown" finished-at="2021-08-10T14:15:20 IST" duration-ms="26227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.test.AmazonTest.Amazon_test -->
+    </test> <!-- Amazon -->
+  </suite> <!-- Amazon1 Suite -->
+</testng-results>

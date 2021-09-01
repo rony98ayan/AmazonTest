@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Amazon1 Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Amazon(failed)">
+    <parameter name="Electronicsname" value="Mobile phones"/>
+    <parameter name="Category3" value="Furniture"/>
+    <parameter name="Category2" value="Electronics"/>
+    <parameter name="Category1" value="Books"/>
+    <parameter name="Furniturename" value="Wooden Tables"/>
+    <parameter name="Bookname" value="Da vinci code"/>
+    <parameter name="url" value="https://www.amazon.in"/>
+    <classes>
+      <class name="com.qa.test.AmazonTest.Amazon_test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="searchSecondItem"/>
+          <include name="setUp"/>
+          <include name="searchThirdItem"/>
+        </methods>
+      </class> <!-- com.qa.test.AmazonTest.Amazon_test -->
+    </classes>
+  </test> <!-- Amazon(failed) -->
+</suite> <!-- Failed suite [Amazon1 Suite] -->
